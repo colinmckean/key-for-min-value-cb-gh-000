@@ -8,6 +8,7 @@ return_value = 1000
 name_hash.each {|key, value|
   if value < return_value
     return_key = key
+    return_value = value
   end
  }
  return_key
