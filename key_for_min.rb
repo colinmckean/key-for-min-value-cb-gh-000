@@ -9,6 +9,8 @@ name_hash.each {|key, value|
   if value < return_value
     return_key = key
     return_value = value
+  else
+    return nil
   end
  }
  return_key
