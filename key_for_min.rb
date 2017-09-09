@@ -10,7 +10,7 @@ name_hash.each {|key, value|
     return_key = key
     return_value = value
   else
-    return nil
+    return_value = nil
   end
  }
  return_key
