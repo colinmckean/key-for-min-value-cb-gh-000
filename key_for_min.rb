@@ -6,7 +6,7 @@ return_key = ""
 return_value = 1000
 
 name_hash.each {|key, value|
-  if value < return_value
+  if value < return_value && name_hash != {}
     return_key = key
     return_value = value
   end
