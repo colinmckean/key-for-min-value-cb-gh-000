@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 return_key = ""
-return_value = 1000
+return_value = nil
 
 name_hash.each {|key, value|
   if value < return_value
